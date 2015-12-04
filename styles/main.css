@@ -1,3 +1,21 @@
 body {
-  background: #999;
+  background: #5E8E17;
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding: 50px, 25px;
 }
+
+h1, h2 {
+  color: #333;
+}
+
+.textpanel {
+  background: #B4D87F;
+  border-color: orange;
+  border-width: 3spx;
+  border-radius: 50px;
+  border-style: solid;
+  padding: 30px;
+  margin: 25px;
+}
+
