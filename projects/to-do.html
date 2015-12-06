@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>To do</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    
+    <style type="text/css" media="screen">
+      li input {
+        display: none;
+      }
+      li.edit span {
+        display: none;
+      }
+      li.edit input {
+        display: initial;
+      }
+    </style>
+    
+  </head>
+  
+  <body>
+
+    <header class="textpanel">
+    <p><h1>To Do List</h1>
+    
+     
+    </p>
+    </header>
+
+    <main class="textpanel">
+    <!--
+    <h4>Add Numbers</h4>
+    <p>
+      <input id="num-one"> + <input id="num-two">
+    </p>
+    <p id="add-sum"></p>
+
+    <p>Paragraph</p>
+    <p>Second paragraph</p>
+    -->
+    <h4>Lists</h4>
+    <ul id="checklist">
+      <li class="edit">
+        <span>Apples</span>
+        <input value="Apples" />
+      </li>
+      <li>
+        <span>Oranges</span>
+        <input value="Oranges" />
+      </li>
+      <li>
+        <span>Bananas</span>
+        <input value="Bananas" />
+      </li>
+    </ul>
+    </main>
+
+    <footer class="textpanel">
+    <p>
+     Copyright 2015
+    </p>
+    <!-- this is a comment. -->
+    </footer>
+    
+    <script type="text/javascript" src="to-do.js"></script>
+  </body>
+</html>
