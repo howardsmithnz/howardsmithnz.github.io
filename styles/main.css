@@ -2,20 +2,54 @@ body {
   background: #5E8E17;
   font-family: sans-serif;
   line-height: 1.6em;
-  padding: 50px, 25px;
+  padding: 25px;
 }
 
-h1, h2 {
-  color: #333;
+.nav-row {
+  display: inline-block;
+}
+
+.nav-col {
+  background: orange;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  width: 10%;
+}
+
+.nav-col:hover {
+  background: yellow;
+}
+
+h1 {
+  color: orange;
+  font-size: 250%;
+}
+
+h1:hover,h2:hover {
+  text-shadow: 0 0 10px purple;
+}
+
+h2 {
+  color: orange;
+  font-size: 185%;
 }
 
 .textpanel {
-  background: #B4D87F;
+  background: #EFF193;
   border-color: orange;
-  border-width: 3spx;
-  border-radius: 50px;
+  border-width: 3px;
+  border-radius: 10px;
   border-style: solid;
   padding: 30px;
   margin: 25px;
 }
 
+.header-col {
+  display: inline-block;
+  width: 33%;
+}
+
+#howardphoto {
+  float: right;
+}
