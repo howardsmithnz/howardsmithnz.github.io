@@ -18,7 +18,7 @@ body {
 }
 
 .nav-col:hover {
-  background: yellow;
+  background: red;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
 }
 
 h1:hover,h2:hover {
-  text-shadow: 0 0 10px purple;
+  text-shadow: 0 0 10px yellow;
 }
 
 h2 {
@@ -52,4 +52,8 @@ h2 {
 
 #howardphoto {
   float: right;
+}
+
+#howardphoto:hover {
+  transform: rotate(-5deg);
 }
