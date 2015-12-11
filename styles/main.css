@@ -1,18 +1,20 @@
 body {
   background: #5E8E17;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
   padding: 25px;
 }
 
 .nav-row {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-col {
   background: orange;
   color: white;
   display: inline-block;
+  flex: auto;
   padding: 15px;
   width: 10%;
 }
