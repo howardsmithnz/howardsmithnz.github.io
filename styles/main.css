@@ -76,8 +76,8 @@ h2 {
 
 .textpanel {
   background: #EFF193;
-  border-color: orange;
-  border-width: 3px;
+  /*border-color: orange;*/
+  border-width: 0px;
   border-radius: 10px;
   border-style: solid;
   padding: 30px;
