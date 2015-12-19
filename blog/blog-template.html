@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>My Blog</title>
+  <meta name="description" content="A blog">
+  <meta name="author" content="Howard Smith">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -16,11 +16,13 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="styles/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,12 +34,44 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+
+    <header class="row textpanel">
+      <div class="nav-row">
+        <div class="two columns nav-col">
+          <img id="cabbagetree" src="cabbagetree1.png" alt="A picture of a cabbage tree">
+        </div>
+        <div class="two columns nav-col">
+          <a href="#">Home</a>
+        </div>
+        <div class="two columns nav-col">
+          <a href="#">About</a>
+        </div>
+        <div class="two columns nav-col">
+          <a href="#">Blogs</a>
+        </div>
+        <div class="two columns nav-col">
+          <a href="#">Other</a>
+        </div>
+        <div class="two columns nav-col">
+          <a href="#">Contact</a>
+        </div>
       </div>
-    </div>
+    </header>
+
+    <main class="row textpanel">
+      <div class="row">
+        <div class="twelve columns">
+          Blog content goes here
+        </div>
+      </div>
+    </main>
+
+    <footer class="row textpanel">
+      <p>
+      Copyright 2015
+      </p>
+    </footer>
+
   </div>
 
 <!-- End Document

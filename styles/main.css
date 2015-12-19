@@ -1,0 +1,85 @@
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background: #5E8E17;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1px 25px;
+}
+
+h1 {
+  color: orange;
+  font-size: 250%;
+}
+
+h1:hover,h2:hover {
+  text-shadow: 0 0 10px yellow;
+}
+
+h2 {
+  color: orange;
+  font-size: 185%;
+}
+/*
+#blogs {
+  border-color: black;
+  border-style: solid ;
+  border-width: 1px; 
+}
+
+#other {
+  border-color: black;
+  border-style: solid ;
+  border-width: 1px; 
+}
+*/
+#howardphoto {
+  float: right;
+}
+
+#howardphoto:hover {
+  transform: rotate(-5deg);
+}
+
+.header-col {
+  display: inline-block;
+  width: 33%;
+}
+
+.nav-row a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-col {
+  background: orange;
+  color: white;
+  /*display: inline-block;
+  flex: auto;*/
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-col:hover {
+  background: #F5C53D;
+}
+
+.textpanel {
+  background: #EFF193;
+  border-color: orange;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 30px;
+  margin: 5px 25px;
+}
